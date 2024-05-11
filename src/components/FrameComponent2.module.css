@@ -1,0 +1,738 @@
+.pricing {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.compareOurPricing {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+  text-align: left;
+}
+.frameWrapper,
+.pricingParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pricingParent {
+  width: 381px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  width: 1097px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 455px;
+  height: 264px;
+  position: relative;
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  background-color: var(--bg1);
+  display: none;
+  max-width: 100%;
+}
+.b,
+.highStreetAgents {
+  position: relative;
+  line-height: 32px;
+  z-index: 1;
+}
+.b {
+  line-height: 60px;
+  display: inline-block;
+  min-width: 103px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-mini-5);
+}
+.managementFee {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 24px;
+  z-index: 1;
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameContainer,
+.frameGroup,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-17xl) 0 var(--padding-15xl-5);
+  font-size: var(--desktop-h1-size);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  background-color: var(--bg1);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-xl) var(--padding-41xl)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.child,
+.child1,
+.child2,
+.ellipseDiv,
+.inner,
+.item {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--bg);
+  display: none;
+}
+.evacheckmarkFillIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.to12Months {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 121px;
+}
+.frameParent2 {
+  width: 153px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.noMaintenance {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.frameParent3 {
+  width: 162px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.noWeeklyCleaning {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon3 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.noInteriorDesign {
+  position: relative;
+  line-height: 24px;
+}
+.frameParent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon4 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.void {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 63px;
+}
+.frameParent6 {
+  width: 95px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon5 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.div1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 67px;
+  white-space: nowrap;
+}
+.frameParent7 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.div,
+.frameDiv,
+.frameParent1,
+.frameParent7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.div,
+.frameDiv {
+  box-sizing: border-box;
+}
+.frameDiv {
+  width: 265px;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  font-size: var(--font-size-lg);
+}
+.div {
+  flex: 1;
+  box-shadow: -2px -2px 2px rgba(229, 229, 229, 0.5),
+    2px 2px 2px rgba(229, 229, 229, 0.5);
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: 0 0 var(--padding-133xl);
+  gap: var(--gap-21xl);
+  min-width: 296px;
+  max-width: 100%;
+}
+.vs {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 40px;
+}
+.dataProcessor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-309xl) 0 0;
+  text-align: left;
+  font-size: var(--desktop-h3-size);
+  color: var(--color-black);
+}
+.frameItem {
+  width: 455px;
+  height: 264px;
+  position: relative;
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  background-color: var(--bg1);
+  display: none;
+  max-width: 100%;
+}
+.flexLivingGuaranteed {
+  line-height: 32px;
+}
+.fixedPrice,
+.flexLivingGuaranteed,
+.monthly {
+  position: relative;
+  z-index: 1;
+}
+.fixedPrice {
+  margin: 0;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.monthly {
+  line-height: 24px;
+  display: inline-block;
+  min-width: 66px;
+}
+.monthlyWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  font-size: var(--font-size-lg);
+}
+.fixedPriceParent,
+.frameWrapper1,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fixedPriceParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frameWrapper1,
+.rectangleGroup {
+  align-self: stretch;
+}
+.frameWrapper1 {
+  flex-direction: row;
+  padding: 0 var(--padding-22xl) 0 var(--padding-18xl);
+  font-size: var(--desktop-h1-size);
+}
+.rectangleGroup {
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  background-color: var(--bg1);
+  flex-direction: column;
+  padding: var(--padding-41xl) var(--padding-40xl) var(--padding-41xl)
+    var(--padding-45xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.child3,
+.child4,
+.child5,
+.child6,
+.child7,
+.child8 {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--bg);
+  display: none;
+}
+.evacheckmarkFillIcon6 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.to5Years {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 93px;
+}
+.frameParent9 {
+  width: 125px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon7 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.freeMaintenance {
+  position: relative;
+  line-height: 24px;
+}
+.frameParent10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon8 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.weeklyCleaning {
+  position: relative;
+  line-height: 24px;
+}
+.frameParent11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.evacheckmarkFillIcon9 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.interiorDesign {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 116px;
+}
+.frameParent12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.evacheckmarkFillIcon10 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.noVoid {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 62px;
+}
+.frameParent13 {
+  width: 94px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.evacheckmarkFillIcon11 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.evacheckmarkFillWrapper9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.div3 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 67px;
+  white-space: nowrap;
+}
+.frameParent14 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xl);
+  gap: var(--gap-xs);
+}
+.buttonGetStarted {
+  height: 48px;
+  width: 171px;
+}
+.buttonGetStartedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.div2,
+.frameParent8,
+.inner1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent8 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.div2,
+.inner1 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inner1 {
+  width: 353px;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  font-size: var(--font-size-lg);
+}
+.div2 {
+  flex: 1;
+  box-shadow: -2px -2px 2px rgba(229, 229, 229, 0.5),
+    2px 2px 2px rgba(229, 229, 229, 0.5);
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: 0 0 var(--padding-45xl);
+  gap: var(--gap-21xl);
+  min-width: 296px;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-60xl-5);
+  font-size: var(--desktop-h4-size);
+}
+.frameParent,
+.landlordsPageInner,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1109px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.landlordsPageInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-61xl) var(--padding-12xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--desktop-h2-size);
+  color: var(--text);
+  font-family: var(--desktop-text-regular);
+}
+@media screen and (max-width: 1200px) {
+  .parent {
+    gap: var(--gap-21xl);
+  }
+  .frameParent {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .landlordsPageInner {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pricing {
+    font-size: var(--font-size-19xl);
+    line-height: 43px;
+  }
+  .b {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .div {
+    padding-bottom: var(--padding-80xl);
+    box-sizing: border-box;
+  }
+  .vs {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .fixedPrice {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .div2 {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .parent {
+    gap: var(--gap-xl);
+  }
+  .landlordsPageInner {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pricing {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .highStreetAgents {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .b {
+    font-size: var(--font-size-12xl);
+    line-height: 36px;
+  }
+  .div {
+    gap: var(--gap-xl);
+  }
+  .vs {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .dataProcessor {
+    padding-top: var(--padding-194xl);
+    box-sizing: border-box;
+  }
+  .flexLivingGuaranteed {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .fixedPrice {
+    font-size: var(--font-size-12xl);
+    line-height: 36px;
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .div2 {
+    gap: var(--gap-xl);
+  }
+}
